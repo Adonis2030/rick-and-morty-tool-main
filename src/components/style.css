@@ -1,0 +1,46 @@
+/* AddSceneModal component styles */
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.character-badge {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #d4dfff;
+  border-radius: 15px;
+}
+
+.character-name {
+  margin-right: 5px;
+}
+
+.character-remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background-color: #645758;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.scene-card {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
